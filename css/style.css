@@ -1,0 +1,27 @@
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+#contenedor {
+  border-radius: 10px; 
+  border: 1px solid grey;
+  margin-top: 30px;
+  height: 500px;
+}
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.pagination {
+  margin-bottom: 30px;
+}
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}  

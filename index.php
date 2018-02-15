@@ -1,49 +1,6 @@
 <?php
   include('head.php');
 ?>
-  <body>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg fixed-top" style="background: #374aab;">
-      <div class="container">
-        <div class="col-md-2">
-        <a class="navbar-brand" href="#">LOGO</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-
-      <div class="col-md-6">
-        <div class="input-group">
-          <input type="text" class="form-control" placeholder="Search">
-          <div class="input-group-btn">
-            <button class="btn btn-primary" type="submit">
-              <i class="fa fa-user fa-2x"></i>
-            </button>
-          </div>
-        </div>
-      </div>  
-
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav><br><br><br>
 
     <!-- Page Content -->
   <div class="col-md-12"> 
@@ -52,12 +9,67 @@
         <small></small>
       </h1>
       <div id="contenedor">
+          <br><a href="#"><img src="svg/images.png" alt="" left="100" width="140"></a><br>
 
-      <!-- Page Heading -->
-      <h1 class="my-4">Play
-        <small></small>
-      </h1>
+<div>
+  <h2>Datos de la Cuenta</h2>
+  <table class="table">
+    <thead>
+      <tr style="width: 10px;">
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+    </tbody>
+  </table><br><br>
+</div>
 
+<div>
+    <h2>Datos Personales</h2>
+  <table class="table">
+    <thead>
+      <tr style="width: 10px;">
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
       </div>
   </div><br>
       <!-- /.row -->

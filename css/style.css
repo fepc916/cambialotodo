@@ -18,7 +18,7 @@ h1 {
   border-radius: 10px; 
   border: 2px solid #bfbaba;
   margin-top: 30px;
-  height: 500px;
+  height: 800px;
   font-family: Roboto-Thin;
 }
 .portfolio-item {
@@ -31,4 +31,7 @@ h1 {
 a:hover {
     color: #0056b3;
     text-decoration: underline;
+}
+.btn-warning {
+  color: #fff;
 }

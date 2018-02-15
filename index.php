@@ -1,40 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-
-  <head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Dev</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/style.css" rel="stylesheet">
-  </head>
-
+<?php
+  include('head.php');
+?>
   <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg fixed-top" style="background: #374aab;">
       <div class="container">
-        <a class="navbar-brand" href="#">Cambialotodo</a>
+        <div class="col-md-2">
+        <a class="navbar-brand" href="#">LOGO</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+      </div>
 
+      <div class="col-md-6">
         <div class="input-group">
           <input type="text" class="form-control" placeholder="Search">
           <div class="input-group-btn">
-            <button class="btn btn-default" type="submit">
-              <i class="fa fa-search"></i>
+            <button class="btn btn-primary" type="submit">
+              <i class="fa fa-user fa-2x"></i>
             </button>
           </div>
         </div>
+      </div>  
 
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
@@ -55,11 +43,15 @@
           </ul>
         </div>
       </div>
-    </nav><br>
+    </nav><br><br><br>
 
     <!-- Page Content -->
-  <div class="col-md-12">  
-    <div class="container" id="contenedor">
+  <div class="col-md-12"> 
+    <div class="container">
+                <h1 class="my-4" style="text-align: center;color: #5d78b9">Perfil
+        <small></small>
+      </h1>
+      <div id="contenedor">
 
       <!-- Page Heading -->
       <h1 class="my-4">Play
@@ -96,25 +88,7 @@
       </ul> -->
 
     </div>
-    <!-- /.container -->
-
-    <footer class="py-5 bg-dark">
-      <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Desarrollador Web Osward Pacheco 2018</p>
-      </div>
-    </footer>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>    
-
-    <script>
-       $(document).ready(function()
-       {
-          $("#mostrarmodal").modal("show");
-       });
-    </script>
-  </body>
-
-</html>
+  </div>
+<?php
+  include('footer.php');
+?>

@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "Roboto-Thin";
+    src: url(../vendor/fonts/ROBOTO/Roboto-Thin.ttf) format("truetype");
+}
 body {
   padding-top: 54px;
 }
@@ -7,12 +11,15 @@ body {
     padding-top: 56px;
   }
 }
-
+h1 {
+  font-family: Roboto-Thin;
+}
 #contenedor {
   border-radius: 10px; 
-  border: 1px solid grey;
+  border: 2px solid #bfbaba;
   margin-top: 30px;
   height: 500px;
+  font-family: Roboto-Thin;
 }
 .portfolio-item {
   margin-bottom: 30px;
@@ -24,4 +31,4 @@ body {
 a:hover {
     color: #0056b3;
     text-decoration: underline;
-}  
+}

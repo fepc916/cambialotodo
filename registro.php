@@ -8,7 +8,7 @@ include('head.php');
     <h1 class="my-4" style="text-align: center;color: #5d78b9">Regístrate
       <small></small>
     </h1>
-    <div id="contenedor">
+    <div id="contenedor2">
       <br><h2 style="text-align: center;">Regístrate, es muy sencillo, solo rellena los recuadros en</h2>
       <h2 style="text-align: center;">la parte inferior</h2>              
       <br><center><a href="#"><img src="svg/images.png" alt="" left="100" width="140"></a></center><br><br>       
@@ -46,11 +46,11 @@ include('head.php');
           </div>
         </div>      
 
-                  <div class="col-md-9">
-            <center><button type="submit" class="btn btn-warning" style="border-radius: 15px;color: #fff;">Registrarse</button></center>
-          </div>
+        <div class="col-md-9">
+          <center><button type="submit" class="btn btn-warning" style="border-radius: 15px;color: #fff;">Registrarse</button></center>
+        </div>
       </form>
-    </div>
+    </div><br>
 
   </div>
 </div>

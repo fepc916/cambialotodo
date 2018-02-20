@@ -1,80 +1,73 @@
 <?php
-  include('head.php');
+include('head.php');
 ?>
 
-    <!-- Page Content -->
-  <div class="col-md-12"> 
-    <div class="container">
-                <h1 class="my-4" style="text-align: center;color: #5d78b9">Perfil
-        <small></small>
-      </h1>
-      <div id="contenedor">
-          <br><a href="#"><img src="svg/images.png" alt="" left="100" width="140"></a><br>
+<!-- Page Content -->
+<div class="col-md-12"> 
+  <div class="container">
+    <h1 class="my-4" style="text-align: center;color: #5d78b9">Perfil
+      <small></small>
+    </h1>
+    <div id="contenedor">
+      <br><center><a href="#"><img src="svg/images.png" alt="" left="100" width="140"></a></center><br><br>
 
-<div>
-  <h2>Datos de la Cuenta</h2>
-  <table class="table">
-    <thead>
-      <tr style="width: 10px;">
-        <th>Firstname</th>
-        <th>Lastname</th>
-        <th>Email</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>John</td>
-        <td>Doe</td>
-        <td>john@example.com</td>
-      </tr>
-      <tr>
-        <td>Mary</td>
-        <td>Moe</td>
-        <td>mary@example.com</td>
-      </tr>
-      <tr>
-        <td>July</td>
-        <td>Dooley</td>
-        <td>july@example.com</td>
-      </tr>
-    </tbody>
-  </table><br><br>
-</div>
+      <center><div class="col-md-10">
+        <h2 style="float: left;">Datos de la Cuenta</h2>
+        <table class="table">
+          <tbody>
+            <tr>
+              <td><i class="far fa-user fa-1x"></i></td>
+              <td>Usuario</td>
+              <td>Osward José</td>
+              <td><a class="btn btn-default" style="border-radius: 15px;background-color:#e9ebec; color:#5d78b9">Modificar</a></td>
+            </tr>
+            <tr>
+              <td><i class="far fa-envelope fa-1x"></i></td>
+              <td>Correo</td>
+              <td>ojpr15@gmail.com</td>
+              <td><a class="btn btn-default" style="border-radius: 15px;background-color:#e9ebec; color:#5d78b9">Modificar</a></td>              
+            </tr>
+            <tr>
+              <td><i class="fas fa-unlock-alt fa-1x"></i></td>
+              <td>Contraseña</td>
+              <td>64969349</td>
+              <td><a class="btn btn-default" style="border-radius: 15px;background-color:#e9ebec; color:#5d78b9">Modificar</a></td>
+            </tr>
+          </tbody>
+        </table><br><br>
+      </div></center>
 
-<div>
-    <h2>Datos Personales</h2>
-  <table class="table">
-    <thead>
-      <tr style="width: 10px;">
-        <th>Firstname</th>
-        <th>Lastname</th>
-        <th>Email</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>John</td>
-        <td>Doe</td>
-        <td>john@example.com</td>
-      </tr>
-      <tr>
-        <td>Mary</td>
-        <td>Moe</td>
-        <td>mary@example.com</td>
-      </tr>
-      <tr>
-        <td>July</td>
-        <td>Dooley</td>
-        <td>july@example.com</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-      </div>
+      <center><div class="col-md-10">
+        <h2 style="float: left;">Datos Personales</h2>
+        <table class="table">
+          <tbody>
+            <tr>
+              <td><i class="far fa-user fa-1x"></i></td>
+              <td>Nombre</td>
+              <td>Osward José</td>
+              <td><a class="btn btn-default" style="border-radius: 15px;background-color:#e9ebec; color:#5d78b9">Modificar</a></td>
+            </tr>
+            <tr>
+              <td><i class="fas fa-map-marker-alt fa-1x"></i></td>
+              <td>Domicilio</td>
+              <td>ojpr15@gmail.com</td>
+              <td><a class="btn btn-default" style="border-radius: 15px;background-color:#e9ebec; color:#5d78b9">Modificar</a></td>              
+            </tr>
+            <tr>
+              <td><i class="fas fa-phone fa-1x"></i></td>
+              <td>Teléfonodm</td>
+              <td>0424-0000000</td>
+              <td><a class="btn btn-default" style="border-radius: 15px;background-color:#e9ebec; color:#5d78b9">Modificar</a></td>
+            </tr>
+          </tbody>
+        </table><br><br>
+      </div></center>      
+
+    </div>
   </div><br>
-      <!-- /.row -->
+  <!-- /.row -->
 
-      <!-- Pagination -->
+  <!-- Pagination -->
 <!--       <ul class="pagination justify-content-center">
         <li class="page-item">
           <a class="page-link" href="#" aria-label="Previous">
@@ -101,6 +94,6 @@
 
     </div>
   </div>
-<?php
+  <?php
   include('footer.php');
-?>
+  ?>

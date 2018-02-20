@@ -50,15 +50,19 @@
               </a>
             </li>
             <li class="nav-item" style="margin-right: 15px;color: #fff;">
-              <i class="fa fa-user fa-1x"></i>
+              Osward José
             </li>
             <li class="nav-item" style="margin-right: 15px;color: #fff;">
-              <i class="fa fa-bell fa-1x"></i>    
+              <i class="far fa-user fa-1x"></i>
             </li>
-            <li class="nav-item" style="color: #fff;">
-              <i class="fa fa-heart fa-1x"></i>
+            <li class="nav-item" style="margin-right: 15px;color: #fff;">
+              <i class="far fa-bell fa-1x"></i>    
             </li>
+            <li class="nav-item" style="margin-right: 15px;color: #fff;">
+              <i class="far fa-heart fa-1x"></i>
+            </li>            
           </ul>
+            <a class="btn btn-warning" style="border-radius: 15px;color: #fff;">Publicar</a>
         </div>
       </div>
     </nav><br><br><br>  

@@ -1,6 +1,14 @@
     <footer class="py-5" style="background: #374aab; position: relative;">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Desarrollador Web Osward Pacheco 2018</p>
+        <h6 class="m-0 text-center text-white" href="#">LOGO</h6><br>
+            
+        <center>              
+          <a><i class="fab fa-facebook-f fa-2x" style="margin-right:15px;color: #fff"></i></a>
+          <a><i class="fab fa-youtube fa-2x" style="margin-right:15px;color: #fff"></i></a>
+          <a><i class="fab fa-instagram fa-2x" style="color: #fff"></i></a>    
+        </center><br>
+                    
+        <h6 class="m-0 text-center text-white">Copyright &copy; Desarrollador Web Osward Pacheco 2018</h6>
       </div>
     </footer>
 

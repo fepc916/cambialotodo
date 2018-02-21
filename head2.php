@@ -33,7 +33,7 @@
     });
 </script>
 </head>
-<body>
+<header>
 
 <nav class="navbar navbar-default navbar-fixed-top" style="background: #374aab;">
   <div class="container-fluid">
@@ -104,3 +104,4 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+</header>

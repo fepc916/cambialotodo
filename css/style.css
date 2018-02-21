@@ -21,13 +21,92 @@ h1 {
   height: 800px;
   font-family: Roboto-Thin;
 }
-#contenedor2 {
+
+/*Error_Busqueda.css*/
+#contenedor1{
   border-radius: 10px; 
   border: 2px solid #bfbaba;
-  margin-top: 30px;
-  height: 700px;
-  font-family: Roboto-Thin;
+  font-family: Roboto-Thin; 
 }
+
+#contenedor2{
+  font-family: Roboto-Thin; 
+  margin-top: 60px;
+}
+
+#contenedor2 h2{
+  font-family: Roboto-Thin;
+  text-align: center;
+  color: #5d78b9; 
+  margin-bottom: 20px;
+}
+
+#icon1{
+  
+}
+
+#icon-exclamation{
+  margin:40px 80px;
+}
+
+#article1{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#article1>h2{
+    color: #5d78b9;
+    font-size: 22px;
+}
+
+#article1>ul{
+    list-style: none;
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 0;
+}
+
+.articulos-vistos{
+  border-radius:30px ; 
+  border: 0.2px solid rgba(0,0,0,0.1);
+  font-family: Roboto-Thin;
+  margin-bottom: 40px;
+}
+
+.articulos-vistos:hover{
+  border-radius:30px; 
+  border: 1px solid #FFB719;
+  font-family: Roboto-Thin;
+  padding: 10px;
+}
+
+.articulos-vistos>h6{
+  margin-top: 4px;
+  font-weight: bold;
+}
+
+.articulos-vistos ul{
+  list-style: none;
+  padding: 0;
+}
+.articulos-vistos ul li{
+  font-size: 15px;
+}
+
+.imagenes-item{
+  width: 100%;
+  border-radius:10%; 
+}
+
+
+@media (min-width: 574px) {
+  
+}
+
+/*Fin Error_Busqueda.css*/ 
+
+
+
 .portfolio-item {
   margin-bottom: 30px;
 }

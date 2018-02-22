@@ -27,7 +27,7 @@
         <div class="col-md-2">
         <a class="navbar-brand" href="#">LOGO</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon" style="color: red"><a href="" data-target="#sidebar" data-toggle="collapse" class="d-md-none"><i class="fa fa-bars" style="color: #fff"></i></a></span>
         </button>
       </div>
 

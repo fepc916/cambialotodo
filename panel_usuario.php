@@ -5,6 +5,7 @@ include('head.php');
     <style type="text/css">
 		body, html {
 		    height: 100%;
+		    overflow-x:hidden;
 		}
 		#conta {
 		    background: #fff;
@@ -66,14 +67,13 @@ include('head.php');
                 </li>                 
             </ul>
         </div>
+
         <div class="col pt-2" style="">
-            <h2>
-                
-            </h2>
+        	            <a class="btn btn-default" style="border-radius: 15px;color: #bfbaba;float: right;margin-right: 20%;margin-top: 50px;">Publicar</a>
+
                     <h5 style="color: #bfbaba;margin-top: 50px;"><a href="" data-target="#sidebar" data-toggle="collapse" class="d-md-none"><i class="fa fa-bars"></i></a> Mensajes</h5>
 
-				<hr style="border-top: 1px solid #bfbaba5c;margin-left: -15px;">
-                    <a class="nav-link collapsed" href="#submenu2" style="color: #bfbaba;" data-toggle="collapse" data-target="#submenu2">Publicaciones<i class="fas fa-exchange-alt fa-1x" style="float: left;margin-right: 5px;margin-top: 4px;"></i></a>
+				<hr style="border-top: 1px solid #bfbaba5c;margin-left: -15px;width: 80%">
                     <div class="collapse" id="submenu2" aria-expanded="false">
                         <ul class="flex-column pl-2 nav">
                             <li class="nav-item"><a class="nav-link py-0" href=""></a></li>

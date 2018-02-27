@@ -1,0 +1,351 @@
+/*Cambiando los estilos del placeholder*/
+
+.form-control::-webkit-input-placeholder {
+    /* Google Chrome y Safari */
+    color:rgba(0,0,0,.3);
+    font-weight: normal;
+}
+.form-control:-moz-placeholder {
+    /* Firefox anterior a 19 */
+     color:rgba(0,0,0,.3);
+    font-weight: normal;
+}
+.form-control::-moz-placeholder {
+    /* Firefox 19 y superior */
+     color:rgba(0,0,0,.3);
+    font-weight: normal;
+}
+.form-control:-ms-input-placeholder {
+    /* Internet Explorer 10 y superior */
+     color:rgba(0,0,0,.3);
+    font-weight: normal;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+.color1{
+    color: #FAA803;
+}
+
+.color2{
+    color: rgba(0,0,0,.3);
+}
+
+header{
+                background: rgba(0, 80, 155,1);
+}
+
+header .container .row{
+                height: 50px;
+                position: relative;
+}
+
+header .container .row .brand{
+                height: 100%;
+                display: flex;
+}
+
+header .container .row .brand hgroup a{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: aliceblue;
+                height: 100%;
+                padding: 0px 8px;
+}
+
+header .container .row .brand hgroup a:hover{
+                background: rgba(200,200,200,.1);
+}
+
+header .container .row .brand hgroup h1{
+                font-size: 1.2em;
+                 font-style: italic;
+                font-weight: 800;
+}
+
+header .search{
+    position: relative;
+}
+
+header .search .input-group-btn{
+    background:transparent;
+}
+
+header .search button,header .search input{
+    border-radius: 2px;
+}
+
+header .search .input-group-btn  .toggleCat{
+            background-color: #fff !important;
+            border: none;
+            color: #ACACAC;
+             font-weight: bold;
+            cursor: pointer;
+            position: relative;
+}
+
+header .search input.form-control{
+            border-color: transparent;
+            color: #00509B;
+            font-weight: bold;
+            z-index: 1;
+}
+
+header .search .dropdown-menu{
+    border-radius: 8px;
+    border: none;
+    overflow-y: hidden;
+}
+
+header .search .dropdown-menu.show{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header  .dropdown-menu.show{
+    animation-name: toggleMenu;
+    animation-duration: .3s;
+    position: absolute;
+    top: 1px!important;
+}
+
+@keyframes toggleMenu{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+header .search .dropdown-menu a{
+    font-size: 14px;
+    font-weight: bold;
+    color: #1C63A6;
+    float: left;
+    display: inline-flex;
+    align-items: center;
+}
+
+header .search .dropdown-menu a.active{
+    background: #FAA803;
+    color: #fff;
+}
+
+#btn-search{
+    border: none;
+    color: aliceblue;
+}
+
+#btn-search i{
+    font-size: 19px;
+}
+
+.user-options{
+    position: relative;
+    height: 100%;
+}
+
+.user-options ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    height: 100%;
+    align-items: center;
+}
+
+.user-options  .dropdown .dropdown-toggle{
+    background: transparent !important;
+    color: aliceblue;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 0px;
+}
+
+.user-options  .dropdown-menu.notifications{
+    min-width: 350px;
+    padding:0px;
+    padding-top: 8px;
+}
+
+.user-options  .dropdown-menu.notifications .dropdown-header{
+    margin-top: -8px; 
+    color: #242424;
+    background: #CEE7FF;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px !important;
+    height: 45px;
+    align-items: center;
+}
+
+.user-options  .dropdown-menu.notifications .dropdown-header h6{
+    font-size: 15px !important;
+}
+
+.user-options  .dropdown-menu.notifications .dropdown-header .badge{
+    display: flex;
+    align-items: center;
+}
+
+.user-options  .dropdown-menu.notifications .dropdown-item{
+     padding: 10px 15px;
+    display: flex;
+}
+
+.last-notification{
+    background: #FFFDE4;
+}
+
+.state-notification{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    font-weight: bold;
+    width: 40%;
+}
+
+
+.state-notification .state{
+    display: block;
+    width: 100%;
+}
+
+.user-options  .dropdown-menu.notifications .image{
+    height: 70px;
+    width: 90px;
+}
+
+.user-options  .dropdown-menu.show:after{
+    font-family: FontAwesome;
+    content: '\f0d8';
+    position: absolute;
+    right: 14px;
+    top: -19px;
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.user-options  .dropdown-menu.show .post-dates{
+    width: 60%;
+}
+
+.user-options  .dropdown-menu.show .post-dates h5{
+    font-size: 15px;
+     color: #1C63A6;
+}
+
+.user-options .dropdown-menu.show .post-dates h6{
+    font-size: 13px;
+}
+
+.user-options  .dropdown-menu.notifications.show:after{
+    color: #CEE7FF;
+}
+
+.user-options  .dropdown .dropdown-toggle::after{
+    display: none;
+}
+
+header  button.dropdown-toggle:hover,header button.dropdown-toggle:active,header button.dropdown-toggle:focus{
+    outline: none;
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.login_header{
+    width: 220px;
+    border: 0px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,.2);
+}
+
+.login_header .form-group{
+    margin: 5px 0px;
+}
+
+.login_header .form-control{
+    background: #F0F0F0;
+    border: none;
+    border-radius: 0px;
+    padding: 6px 15px;
+    margin: 0px;
+}
+
+.login_header button{
+    width: 100%;
+    border: none;
+    color: #fff;
+    background: #00509B
+}
+
+.login_header .container a{
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: .8rem;
+}
+
+.btn-post-header{
+    background: #FAA803;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 18px;
+}
+
+header .username{
+    font-size: 13px;
+    color: rgba(255,255,255,.8);
+}
+
+/*Quita este span cuando hagas todo completo*/
+header .container .row .brand hgroup h1 span{
+                color: #FAA803;
+}
+
+/*Responsive*/
+
+@media screen and (max-width:768px){
+    
+    #contentWrapItemsHeader{
+          justify-content: space-between;  
+    }
+    #contentWrapItemsHeader2{
+          justify-content: space-between;  
+    }    
+    
+    header .search .dropdown-menu.show{
+        position: fixed !important;
+        top: 115px!important;
+        left: 0 !important;
+        transform: translateX(0px)!important;
+        border-radius: 0px;
+    }
+    
+    header{
+        height: 120px;
+        position: fixed;
+        width: 100%;
+    }
+    
+    header .brand{
+        padding: 0;
+    }
+    
+    header .search .dropdown-menu a{
+        width: 100%!important;
+        justify-content: center;
+    }
+    
+    header .user-options{
+        transform: translateX(115px) translateY(-15px);
+    }
+    
+ header .search{
+     z-index: 0!important;
+     width: 100%;
+    }
+}

@@ -10,7 +10,6 @@ include('head.php');
 		#conta {
 		    background: #fff;
 		    margin-left: 12%;
-		    margin-top: -70px;
 		}
 		#sidebar {
 			border-right: 1px solid #bfbaba5c;
@@ -69,7 +68,7 @@ include('head.php');
         </div>
 
         <div class="col pt-2" style="">
-        	            <a class="btn btn-default" style="border-radius: 15px;color: #bfbaba;float: right;margin-right: 20%;margin-top: 50px;">Publicar</a>
+        	            <a class="btn btn-default" style="border-radius: 15px;color: #bfbaba;float: right;margin-right: 20%;margin-top: 10px;">Publicar</a>
 
                     <h5 style="color: #bfbaba;margin-top: 50px;"><a href="" data-target="#sidebar" data-toggle="collapse" class="d-md-none"><i class="fa fa-bars"></i></a> Cambios</h5>
 

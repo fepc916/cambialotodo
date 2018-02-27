@@ -11,19 +11,13 @@
         <h6 class="m-0 text-center text-white">Copyright &copy; Desarrollador Web Osward Pacheco 2018</h6>
       </div>
     </footer>
+    
+    <script src="jquery/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="header.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-
-    <script>
-       $(document).ready(function()
-       {
-          $("#mostrarmodal").modal("show");
-       });
-    </script>
-  </body>
+</body>
 
 </html>

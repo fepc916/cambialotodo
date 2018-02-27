@@ -2,28 +2,30 @@
     font-family: "Roboto-Thin";
     src: url(../vendor/fonts/ROBOTO/Roboto-Thin.ttf) format("truetype");
 }
-body {
-  padding-top: 54px;
-}
 
 @media (min-width: 992px) {
-  body {
-    padding-top: 56px;
-  }
+
 }
 h1 {
   font-family: Roboto-Thin;
 }
 #contenedor {
   border-radius: 10px; 
-  border: 2px solid #bfbaba;
+  border: 1px solid #bfbaba;
+  margin-top: 30px;
+  height: 800px;
+  font-family: Roboto-Thin;
+}
+#contenedor2 {
+  border-radius: 10px; 
+  border: 1px solid #bfbaba;
   margin-top: 30px;
   height: 800px;
   font-family: Roboto-Thin;
 }
 #contenedor3 {
   border-radius: 10px; 
-  border: 2px solid #bfbaba;
+  border: 1px solid #bfbaba;
   margin-top: 30px;
   height: 500px;
   font-family: Roboto-Thin;

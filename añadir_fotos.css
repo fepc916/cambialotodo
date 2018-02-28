@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "Roboto-Thin";
+    src: url(/vendor/fonts/ROBOTO/Roboto-Thin.ttf) format("truetype");
+}
+
+body{
+      font-family: "Roboto-Thin";
+
+}
+h1 {
+  font-family: "Roboto-Thin";
+}
+#contenedor-fotos {
+  border-radius: 10px; 
+  border: 2px solid #bfbaba;
+  margin-top: 30px;
+  margin-bottom:20px ;
+  height: auto;
+  font-family: "Roboto-Thin";
+}
+
+#contenedor-fotos h2{
+	margin-top: 90px;
+	text-align: center;
+	color:  rgba(0, 80, 155,1);
+	font-weight: bold;
+
+}
+
+#comentarios {
+	font-weight: bold;
+	padding-left: 80px;
+}
+
+#comentarios h5{
+	font-weight: bold;
+}
+
+#comentarios ul{
+	padding: 0;
+	list-style: none;
+}
+
+.foto-principal{
+	padding: 20px;
+	border: 2px solid rgba(0, 80, 155,1);;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column nowrap;
+	height: 230px;
+}
+
+.fotos{
+	padding: 20px;
+	border: 2px solid rgba(0, 80, 155,1);;
+	border-radius: 10px;
+	margin-left: 10px;
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+	flex-flow: column nowrap;
+	height: 110px;	
+}
+
+.formulario{
+	margin-top: 80px;
+	padding-left: 60px;
+}
+
+.formulario .title-formulario{
+	font-weight: bold;
+	color:rgba(0, 80, 155,1);
+	font-size: 20px;
+}
+
+.form-align{
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+input[type=text]{
+	border: 1px solid rgba(0, 80, 155,1);;
+}
+
+.label-title{
+	color: rgba(0, 80, 155,1);;
+	font-weight: bold;
+}
+
+.añadir-principal{
+	color: rgba(0, 80, 155,1);;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.foto-principal-pequeña{
+	font-size: 14px;
+	color: rgba(0, 80, 155,1);;
+	}
+
+.añadir-fotos{
+	font-weight: bold;
+	color: rgba(0, 80, 155,1);;
+	font-size: 16px;
+}
+.formatos-aceptados{
+	margin-top: 10px;
+	font-size: 14px;
+}
+.btn-guardar{
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+
+/*Responsive*/
+
+@media(max-width:768px){
+.formulario{
+	margin-top: 80px;
+	padding-left: 0px;
+}
+    
+    .form-align{
+	margin-left: 0px;
+}
+    
+.foto-principal{
+	margin: 10px;
+
+}
+
+    .fotos{
+        margin:10px;
+    }
+    
+    #comentarios{
+        padding-left: 10px;
+    }
+
+
+}

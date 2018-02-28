@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "Roboto-Thin";
+    src: url(/vendor/fonts/ROBOTO/Roboto-Thin.ttf) format("truetype");
+}
+
+body{
+    font-family: "Roboto-Thin";
+}
+
+#contenedor-publicacion{
+    border: 1px solid #bfbaba;
+    border-radius:10px;
+    margin-bottom: 20px;
+}
+
+#contenedor-publish{
+    border: 1px solid #bfbaba;
+    border-radius:10px;
+    margin:20px auto;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center
+}
+
+ #publish-title{
+    color: rgba(0, 80, 155,1);
+     font-weight: bold;
+     margin: 40px 0px;
+}
+
+#img-publish{
+    padding: 20px;
+}
+
+
+#img-publish img{
+    width: 320px
+}
+
+#content-publicacion{
+    padding: 40px;
+}
+
+#content-publicacion h4{
+   font-weight: bold;
+    font-size: 22px;
+}
+
+.btn-publicacion{
+    border-radius: 10px;
+    color: #fff;
+}

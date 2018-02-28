@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap-4.0.0-beta/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="header.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="brand col-4 col-md-3 col-lg-2">
+                    <hgroup>
+                        <a href="">
+                            <h1>Cambialo<span>todo</span></h1>
+                        </a>
+                    </hgroup>
+                </div>
+                <div id="contentWrapItemsHeader" class="col-12 col-md-9 col-lg-10 row align-items-center  flex-wrap-reverse">
+                    <div class="col-12 col-md-7 col-lg-6">
+                        <form action="" class="search">
+                            <div class="input-group">
+                                <div class="input-group-btn">
+
+                                    <button type="button" class="btn toggleCat btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                              Todo
+                            </button>
+                                    <div class="dropdown-menu" id="topCategories">
+                                        <a class="dropdown-item" href="#">Teléfonos</a>
+                                        <a class="dropdown-item" href="#">Hobbies</a>
+                                        <a class="dropdown-item" href="#">Tablets</a>
+                                        <a class="dropdown-item" href="#">Arte</a>
+                                        <a class="dropdown-item" href="#">Electronicos</a>
+                                        <a class="dropdown-item" href="#">Deportes</a>
+                                        <a class="dropdown-item active" href="#">Electrodomesticos</a>
+                                        <a class="dropdown-item" href="#">Moda y belleza</a>
+
+                                        <a class="dropdown-item" href="#">Video</a>
+                                        <a class="dropdown-item" href="#">Animales y mascotas</a>
+                                        <a class="dropdown-item" href="#">Hogar</a>
+                                        <a class="dropdown-item" href="#">Servicios</a>
+                                        <a class="dropdown-item" href="#">Muebles</a>
+                                        <a class="dropdown-item" href="#">Propiedades</a>
+                                        <a class="dropdown-item" href="#">Jardin</a>
+                                        <a class="dropdown-item" href="#">Inmuebles</a>
+                                        <a class="dropdown-item" href="#">Vehiculos</a>
+                                        <a class="dropdown-item" href="#">Herramientas</a>
+                                    </div>
+                                </div>
+                                <input type="text" placeholder="Hola, ¿Que estas buscando?" class="form-control" aria-label="Text input with dropdown button">
+                                <span class="input-group-btn">
+                        <button class="btn btn-warning" type="submit" id="btn-search"><i class="fa fa-search"></i></button>
+                      </span>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="user-options col-8 col-md-4 col-lg-4">
+                        <ul class="">
+                            <li class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="login_header" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="username">Jose Súarez</span> <i class="fa fa-user-o"></i>
+                          </button>
+                                <div class="dropdown-menu dropdown-menu-right login_header" aria-labelledby="login_header">
+                                    <div class="container">
+                                        <form action="" class="">
+                                            <div class="form-group">
+                                                <input type="text" placeholder="usuario" class="form-control">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" placeholder="clave" class="form-control">
+                                            </div>
+                                            <button type="submit">Iniciar Sesión</button>
+                                        </form>
+                                        <a href="" class="color1">Registrate</a>
+                                        <a href="" class="color2">Olvidé mi contraseña</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <!---->
+                            <li class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="notifications" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-bell-o"></i>
+                          </button>
+                                <div class="dropdown-menu notifications dropdown-menu-right" aria-labelledby="notifications">
+                                    <div class="dropdown-header">
+                                        <h6>Notificaciones nuevas</h6> <span class="badge badge-danger">8</span></div>
+                                    <a class="dropdown-item last-notification" href="#">
+                                        <div class="state-notification">
+                                            <span class="state">Te respondieron</span>
+                                            <img src="images/horno.png" alt="" class="image">
+                                        </div>
+                                        <div class="post-dates">
+                                            <h5 class="Title-post">Horno Microondas Samsung</h5>
+                                            <h6 class="value-post color2">Valorado en Bsf: 350000</h6>
+                                            <h6 class="from-post color2">San Cristobal</h6>
+                                            <h6><b class="color1">Nuevo</b></h6>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <div class="state-notification">
+                                            <span class="state">Te respondieron</span>
+                                            <img src="images/teclado.png" alt="" class="image">
+                                        </div>
+                                        <div class="post-dates">
+                                            <h5 class="Title-post">Teclado Microsoft</h5>
+                                            <h6 class="value-post color2">Valorado en Bsf: 845000</h6>
+                                            <h6 class="from-post color2">San Cristobal</h6>
+                                            <h6><b class="color1">Nuevo</b></h6>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <div class="state-notification">
+                                            <span class="state">Te respondieron</span>
+                                            <img src="images/consola.png" alt="" class="image">
+                                        </div>
+                                        <div class="post-dates">
+                                            <h5 class="Title-post">Presonuss Consola</h5>
+                                            <h6 class="value-post color2">Valorado en Bsf: 845000</h6>
+                                            <h6 class="from-post color2">San Cristobal</h6>
+                                            <h6><b class="color1">Nuevo</b></h6>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                            <!---->
+                            <li class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="favorite-items" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-heart-o"></i>
+                          </button>
+                                <div class="dropdown-menu notifications dropdown-menu-right" aria-labelledby="favorite-items">
+                                    <h6 class="dropdown-header">Favoritos</h6>
+                                    <a class="dropdown-item" href="#">
+                                        <div class="state-notification">
+                                            <img src="images/horno.png" alt="" class="image">
+                                        </div>
+                                        <div class="post-dates">
+                                            <h5 class="Title-post">Horno Microondas Samsung</h5>
+                                            <h6 class="value-post color2">Valorado en Bsf: 350000</h6>
+                                            <h6 class="from-post color2">San Cristobal</h6>
+                                            <h6><b class="color1">Nuevo</b></h6>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <div class="state-notification">
+                                            <img src="images/teclado.png" alt="" class="image">
+                                        </div>
+                                        <div class="post-dates">
+                                            <h5 class="Title-post">Teclado Microsoft</h5>
+                                            <h6 class="value-post color2">Valorado en Bsf: 845000</h6>
+                                            <h6 class="from-post color2">San Cristobal</h6>
+                                            <h6><b class="color1">Nuevo</b></h6>
+                                        </div>
+                                    </a>
+                                    <a class="dropdown-item" href="#">
+                                        <div class="state-notification">
+                                            <img src="images/consola.png" alt="" class="image">
+                                        </div>
+                                        <div class="post-dates">
+                                            <h5 class="Title-post">Presonuss Consola</h5>
+                                            <h6 class="value-post color2">Valorado en Bsf: 845000</h6>
+                                            <h6 class="from-post color2">San Cristobal</h6>
+                                            <h6><b class="color1">Nuevo</b></h6>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                            <li><button class="btn-post-header">Publicar</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="main">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <ol class="breadcrumb ">
+                    <li class="breadcrumb-item"><a href="#"><i class="fa fa-home"></i> Inicio</a></li>
+                    <li class="breadcrumb-item active"><a href="">Categorias</a></li>
+                    <li class="breadcrumb-item active"><a href="">Telefonos</a></li>
+                    <li class="breadcrumb-item active"><a href="">Smartphones</a></li>
+                    <li class="breadcrumb-item active">LG</li>
+                </ol>
+                <a href="" class="btn-back"><i class="fa fa-caret-left"></i> Volver</a>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-2 col-lg-2 filters">
+                    <h3>Categoria</h3>
+                    <div class="card filter">
+                        <div class="card-body">
+                            <button class="title" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                        Telefonos
+                              </button>
+                            <div class="collapse" id="collapseExample">
+
+                                <ul>
+                                    <li class="active"><a href="">Smartphones</a></li>
+                                    <li><a href="">Accesorios</a></li>
+                                    <li><a href="">Repuestos</a></li>
+                                    <li><a href="">Radio</a></li>
+                                    <li><a href="">Telefonía</a></li>
+                                    <li><a href="">Comunicaciones</a></li>
+                                </ul>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <hr>
+                    <div class="card filter">
+                        <div class="card-body">
+                            <h3>Filtrar</h3>
+                            <button class="title" type="button" data-toggle="collapse" data-target="#filter-product" aria-expanded="false" aria-controls="collapseExample">
+                                        Condicion
+                              </button>
+                            <div class="collapse" id="filter-product">
+
+                                <label class="custom-control custom-checkbox">
+                                  <input type="checkbox" class="custom-control-input">
+                                  <span class="custom-control-indicator"></span>
+                                  <span class="custom-control-description">Nuevo</span>
+                             </label>
+                                <label class="custom-control custom-checkbox">
+                                  <input type="checkbox" class="custom-control-input">
+                                  <span class="custom-control-indicator"></span>
+                                  <span class="custom-control-description">Usado</span>
+                             </label>
+
+                            </div>
+
+                            <hr>
+                            <button class="title" type="button" data-toggle="collapse" data-target="#filter-product-marca" aria-expanded="false" aria-controls="collapseExample">
+                                        Marca
+                              </button>
+                            <div class="collapse" id="filter-product-marca">
+
+                                <label class="custom-control custom-checkbox">
+                                  <input type="checkbox" class="custom-control-input">
+                                  <span class="custom-control-indicator"></span>
+                                  <span class="custom-control-description">LG</span>
+                             </label>
+                                <label class="custom-control custom-checkbox">
+                                  <input type="checkbox" class="custom-control-input">
+                                  <span class="custom-control-indicator"></span>
+                                  <span class="custom-control-description">Samsumg</span>
+                             </label>
+                                <label class="custom-control custom-checkbox">
+                                  <input type="checkbox" class="custom-control-input">
+                                  <span class="custom-control-indicator"></span>
+                                  <span class="custom-control-description">Nokia</span>
+                             </label>
+                                <label class="custom-control custom-checkbox">
+                                  <input type="checkbox" class="custom-control-input">
+                                  <span class="custom-control-indicator"></span>
+                                  <span class="custom-control-description">Apple</span>
+                             </label>
+                                <label class="custom-control custom-checkbox">
+                                  <input type="checkbox" class="custom-control-input">
+                                  <span class="custom-control-indicator"></span>
+                                  <span class="custom-control-description">Motorola</span>
+                             </label>
+                                <label class="custom-control custom-checkbox">
+                                  <input type="checkbox" class="custom-control-input">
+                                  <span class="custom-control-indicator"></span>
+                                  <span class="custom-control-description">BLU</span>
+                             </label>
+                                <label class="custom-control custom-checkbox">
+                                  <input type="checkbox" class="custom-control-input">
+                                  <span class="custom-control-indicator"></span>
+                                  <span class="custom-control-description">HTC</span>
+                             </label>
+                                <label class="custom-control custom-checkbox">
+                                  <input type="checkbox" class="custom-control-input">
+                                  <span class="custom-control-indicator"></span>
+                                  <span class="custom-control-description">Huawei</span>
+                             </label>
+
+                            </div>
+
+                            <hr>
+                            <button class="title" type="button" data-toggle="collapse" data-target="#filter-product-valor" aria-expanded="false" aria-controls="collapseExample">
+                                        Valor Bs.
+                              </button>
+                            <div class="collapse" id="filter-product-valor">
+                                <form action="" class="form-inline" id="filter-valor">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control">
+                                        <label for="">a</label>
+                                        <input type="text" class="form-control">
+                                        <button><i class="fa fa-caret-right"></i></button>
+                                    </div>
+                                </form>
+                                <label class="custom-control custom-checkbox">
+                                  <input type="checkbox" class="custom-control-input">
+                                  <span class="custom-control-indicator"></span>
+                                  <span class="custom-control-description">0 a 300.000 Bs</span>
+                             </label>
+                                <label class="custom-control custom-checkbox">
+                                  <input type="checkbox" class="custom-control-input">
+                                  <span class="custom-control-indicator"></span>
+                                  <span class="custom-control-description">300.00 Bs a 1.000.000 Bs</span>
+                             </label>
+                                <label class="custom-control custom-checkbox">
+                                  <input type="checkbox" class="custom-control-input">
+                                  <span class="custom-control-indicator"></span>
+                                  <span class="custom-control-description">1.000.000 Bs a 3.000.000 Bs</span>
+                             </label>
+                                <label class="custom-control custom-checkbox">
+                                  <input type="checkbox" class="custom-control-input">
+                                  <span class="custom-control-indicator"></span>
+                                  <span class="custom-control-description">Más de 5.000.000</span>
+                             </label>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-10">
+                    <div class="row header-products justify-content-between">
+                        <div class="Product-name col-12 col-md-6">
+                            <h3> Smartphones</h3>
+                        </div>
+                        <div class="pagination-products col-12 col-md-6">
+                            <p>Ordenar por:
+                                <select name="" id="">
+                                <option value="">Valor</option>
+                            </select> Articulos por pagína:
+                                <select name="" id="">
+                                <option value="">20</option>
+                            </select>
+                                <div class="btn-pagination">
+                                    <a href=""><i class="fa fa-bars"></i></a>
+                                    <a href="" class="active"><i class="fa fa-th-large"></i></a>
+                                </div>
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 contentProducts">
+                        <div class="row">
+                            <div class="card product" style="">
+                                <label for="productoId" class="likeProduct"><i class="fa fa-heart"></i><input type="checkbox" id="productoId"></label>
+                                <img class="card-img-top" src="images/horno.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="product-title">Telefono LG G3 D850 32GB</h4>
+                                    <span class="product-text-value">Valorado en BS: 60.000.000</span>
+                                    <b class="state color1">Nuevo</b>
+                                </div>
+                            </div>
+                            <div class="card product" style="">
+                                <label for="productoId" class="likeProduct"><i class="fa fa-heart"></i><input type="checkbox" id="productoId"></label>
+                                <img class="card-img-top" src="images/horno.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="product-title">Telefono LG G3 D850 32GB</h4>
+                                    <span class="product-text-value">Valorado en BS: 60.000.000</span>
+                                    <b class="state color1">Nuevo</b>
+                                </div>
+                            </div>
+                            <div class="card product" style="">
+                                <label for="productoId" class="likeProduct"><i class="fa fa-heart"></i><input type="checkbox" id="productoId"></label>
+                                <img class="card-img-top" src="images/horno.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="product-title">Telefono LG G3 D850 32GB</h4>
+                                    <span class="product-text-value">Valorado en BS: 60.000.000</span>
+                                    <b class="state color1">Nuevo</b>
+                                </div>
+                            </div>
+                            <div class="card product" style="">
+                                <label for="productoId" class="likeProduct"><i class="fa fa-heart"></i><input type="checkbox" id="productoId"></label>
+                                <img class="card-img-top" src="images/horno.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="product-title">Telefono LG G3 D850 32GB</h4>
+                                    <span class="product-text-value">Valorado en BS: 60.000.000</span>
+                                    <b class="state color1">Nuevo</b>
+                                </div>
+                            </div>
+                            <div class="card product" style="">
+                                <label for="productoId" class="likeProduct"><i class="fa fa-heart"></i><input type="checkbox" id="productoId"></label>
+                                <img class="card-img-top" src="images/horno.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="product-title">Telefono LG G3 D850 32GB</h4>
+                                    <span class="product-text-value">Valorado en BS: 60.000.000</span>
+                                    <b class="state color1">Nuevo</b>
+                                </div>
+                            </div>
+                            <div class="card product" style="">
+                                <label for="productoId" class="likeProduct"><i class="fa fa-heart"></i><input type="checkbox" id="productoId"></label>
+                                <img class="card-img-top" src="images/horno.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="product-title">Telefono LG G3 D850 32GB</h4>
+                                    <span class="product-text-value">Valorado en BS: 60.000.000</span>
+                                    <b class="state color1">Nuevo</b>
+                                </div>
+                            </div>
+                            <div class="card product" style="">
+                                <label for="productoId" class="likeProduct"><i class="fa fa-heart"></i><input type="checkbox" id="productoId"></label>
+                                <img class="card-img-top" src="images/horno.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="product-title">Telefono LG G3 D850 32GB</h4>
+                                    <span class="product-text-value">Valorado en BS: 60.000.000</span>
+                                    <b class="state color1">Nuevo</b>
+                                </div>
+                            </div>
+                            <div class="card product" style="">
+                                <label for="productoId" class="likeProduct"><i class="fa fa-heart"></i><input type="checkbox" id="productoId"></label>
+                                <img class="card-img-top" src="images/horno.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="product-title">Telefono LG G3 D850 32GB</h4>
+                                    <span class="product-text-value">Valorado en BS: 60.000.000</span>
+                                    <b class="state color1">Nuevo</b>
+                                </div>
+                            </div>
+                            <div class="card product" style="">
+                                <label for="productoId" class="likeProduct"><i class="fa fa-heart"></i><input type="checkbox" id="productoId"></label>
+                                <img class="card-img-top" src="images/horno.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="product-title">Telefono LG G3 D850 32GB</h4>
+                                    <span class="product-text-value">Valorado en BS: 60.000.000</span>
+                                    <b class="state color1">Nuevo</b>
+                                </div>
+                            </div>
+                            <div class="card product" style="">
+                                <label for="productoId" class="likeProduct"><i class="fa fa-heart"></i><input type="checkbox" id="productoId"></label>
+                                <img class="card-img-top" src="images/horno.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="product-title">Telefono LG G3 D850 32GB</h4>
+                                    <span class="product-text-value">Valorado en BS: 60.000.000</span>
+                                    <b class="state color1">Nuevo</b>
+                                </div>
+                            </div>
+                            <div class="card product" style="">
+                                <label for="productoId" class="likeProduct"><i class="fa fa-heart"></i><input type="checkbox" id="productoId"></label>
+                                <img class="card-img-top" src="images/horno.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="product-title">Telefono LG G3 D850 32GB</h4>
+                                    <span class="product-text-value">Valorado en BS: 60.000.000</span>
+                                    <b class="state color1">Nuevo</b>
+                                </div>
+                            </div>
+                            <div class="card product" style="">
+                                <label for="productoId" class="likeProduct"><i class="fa fa-heart"></i><input type="checkbox" id="productoId"></label>
+                                <img class="card-img-top" src="images/horno.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="product-title">Telefono LG G3 D850 32GB</h4>
+                                    <span class="product-text-value">Valorado en BS: 60.000.000</span>
+                                    <b class="state color1">Nuevo</b>
+                                </div>
+                            </div>
+                            <div class="card product" style="">
+                                <label for="productoId" class="likeProduct"><i class="fa fa-heart"></i><input type="checkbox" id="productoId"></label>
+                                <img class="card-img-top" src="images/horno.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="product-title">Telefono LG G3 D850 32GB</h4>
+                                    <span class="product-text-value">Valorado en BS: 60.000.000</span>
+                                    <b class="state color1">Nuevo</b>
+                                </div>
+                            </div>
+                            <div class="card product" style="">
+                                <label for="productoId" class="likeProduct"><i class="fa fa-heart"></i><input type="checkbox" id="productoId"></label>
+                                <img class="card-img-top" src="images/horno.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="product-title">Telefono LG G3 D850 32GB</h4>
+                                    <span class="product-text-value">Valorado en BS: 60.000.000</span>
+                                    <b class="state color1">Nuevo</b>
+                                </div>
+                            </div>
+                            <div class="card product" style="">
+                                <label for="productoId" class="likeProduct"><i class="fa fa-heart"></i><input type="checkbox" id="productoId"></label>
+                                <img class="card-img-top" src="images/horno.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="product-title">Telefono LG G3 D850 32GB</h4>
+                                    <span class="product-text-value">Valorado en BS: 60.000.000</span>
+                                    <b class="state color1">Nuevo</b>
+                                </div>
+                            </div>
+                            <div class="card product" style="">
+                                <label for="productoId" class="likeProduct"><i class="fa fa-heart"></i><input type="checkbox" id="productoId"></label>
+                                <img class="card-img-top" src="images/horno.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="product-title">Telefono LG G3 D850 32GB</h4>
+                                    <span class="product-text-value">Valorado en BS: 60.000.000</span>
+                                    <b class="state color1">Nuevo</b>
+                                </div>
+                            </div>
+                            <div class="card product" style="">
+                                <label for="productoId" class="likeProduct"><i class="fa fa-heart"></i><input type="checkbox" id="productoId"></label>
+                                <img class="card-img-top" src="images/horno.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="product-title">Telefono LG G3 D850 32GB</h4>
+                                    <span class="product-text-value">Valorado en BS: 60.000.000</span>
+                                    <b class="state color1">Nuevo</b>
+                                </div>
+                            </div>
+                            <div class="card product" style="">
+                                <label for="productoId" class="likeProduct"><i class="fa fa-heart"></i><input type="checkbox" id="productoId"></label>
+                                <img class="card-img-top" src="images/horno.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="product-title">Telefono LG G3 D850 32GB</h4>
+                                    <span class="product-text-value">Valorado en BS: 60.000.000</span>
+                                    <b class="state color1">Nuevo</b>
+                                </div>
+                            </div>
+                            <div class="card product" style="">
+                                <label for="productoId" class="likeProduct"><i class="fa fa-heart"></i><input type="checkbox" id="productoId"></label>
+                                <img class="card-img-top" src="images/horno.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="product-title">Telefono LG G3 D850 32GB</h4>
+                                    <span class="product-text-value">Valorado en BS: 60.000.000</span>
+                                    <b class="state color1">Nuevo</b>
+                                </div>
+                            </div>
+                            <div class="card product" style="">
+                                <label for="productoId" class="likeProduct"><i class="fa fa-heart"></i><input type="checkbox" id="productoId"></label>
+                                <img class="card-img-top" src="images/horno.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="product-title">Telefono LG G3 D850 32GB</h4>
+                                    <span class="product-text-value">Valorado en BS: 60.000.000</span>
+                                    <b class="state color1">Nuevo</b>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12" id="pagination">
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination">
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+        <span class="sr-only">Previous</span>
+      </a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item active"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+        <span class="sr-only">Next</span>
+      </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row similarPost justify-content-center">
+                <h4>Articulos relacionados</h4>
+                <div class="col-12">
+                    <ul class="">
+                        <li>
+                            <div class="card product" style="">
+                                <label for="productoId" class="likeProduct"><i class="fa fa-heart"></i><input type="checkbox" id="productoId"></label>
+                                <img class="card-img-top" src="images/horno.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="product-title">Telefono LG G3 D850 32GB</h4>
+                                    <span class="product-text-value">Valorado en BS: 60.000.000</span>
+                                    <b class="state color1">Nuevo</b>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="card product" style="">
+                                <label for="productoId" class="likeProduct"><i class="fa fa-heart"></i><input type="checkbox" id="productoId"></label>
+                                <img class="card-img-top" src="images/horno.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="product-title">Telefono LG G3 D850 32GB</h4>
+                                    <span class="product-text-value">Valorado en BS: 60.000.000</span>
+                                    <b class="state color1">Nuevo</b>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="card product" style="">
+                                <label for="productoId" class="likeProduct"><i class="fa fa-heart"></i><input type="checkbox" id="productoId"></label>
+                                <img class="card-img-top" src="images/horno.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="product-title">Telefono LG G3 D850 32GB</h4>
+                                    <span class="product-text-value">Valorado en BS: 60.000.000</span>
+                                    <b class="state color1">Nuevo</b>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="card product" style="">
+                                <label for="productoId" class="likeProduct"><i class="fa fa-heart"></i><input type="checkbox" id="productoId"></label>
+                                <img class="card-img-top" src="images/horno.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="product-title">Telefono LG G3 D850 32GB</h4>
+                                    <span class="product-text-value">Valorado en BS: 60.000.000</span>
+                                    <b class="state color1">Nuevo</b>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="card product" style="">
+                                <label for="productoId" class="likeProduct"><i class="fa fa-heart"></i><input type="checkbox" id="productoId"></label>
+                                <img class="card-img-top" src="images/horno.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="product-title">Telefono LG G3 D850 32GB</h4>
+                                    <span class="product-text-value">Valorado en BS: 60.000.000</span>
+                                    <b class="state color1">Nuevo</b>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="card product" style="">
+                                <label for="productoId" class="likeProduct"><i class="fa fa-heart"></i><input type="checkbox" id="productoId"></label>
+                                <img class="card-img-top" src="images/horno.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="product-title">Telefono LG G3 D850 32GB</h4>
+                                    <span class="product-text-value">Valorado en BS: 60.000.000</span>
+                                    <b class="state color1">Nuevo</b>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="control d-flex justify-content-end">
+                                    <a href="" data-slide='left'><i class="fa fa-caret-left"></i></a>
+                                     <a href=""  data-slide='right'><i class="fa fa-caret-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="brand text-center">
+                <hgroup>
+                    <a href="">
+                        <h1>Cambialo<span>todo</span></h1>
+                    </a>
+                </hgroup>
+            </div>
+            <ul class="socialinks row">
+                <li title="facebook"><a href=""><i class="fa fa-facebook"></i></a></li>
+                <li title="youtube"><a href=""><i class="fa fa-youtube-play"></i></a></li>
+                <li title="instagram"><a href=""><i class="fa fa-instagram"></i></a></li>
+            </ul>
+            <ul class="links">
+                <li><a href="">Sobre Nosotros</a></li>
+                <li><a href="">Preguntas Frecuentes</a></li>
+                <li><a href="">Aviso Legal</a></li>
+                <li><a href="">Politica de cookies</a></li>
+                <li><a href="">Como cambiar</a></li>
+                <li><a href="">Condiciones generales</a></li>
+                <li><a href="">Politica de privacidad</a></li>
+            </ul>
+            <p id="copyright">
+                Copyright - 2017 &copy; Cambialo Todo, CA RIF: J-12345678-9 Todos los derechos reservados.
+            </p>
+        </div>
+    </footer>
+    <script src="jquery.js"></script>
+    <script src="popper.min.js"></script>
+    <script src="bootstrap-4.0.0-beta/dist/js/bootstrap.min.js"></script>
+    <script src="header.js"></script>
+</body>
+
+</html>

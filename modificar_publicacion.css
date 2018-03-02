@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "Roboto-Thin";
+    src: url(/vendor/fonts/ROBOTO/Roboto-Thin.ttf) format("truetype");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto-Thin";
+}
+
+#title-mod {
+    color: rgba(0, 80, 155, 1);
+    font-weight: bold;
+    padding: 40px;
+}
+
+#content-articles {
+    border-radius: 10px;
+    border: 1px solid #bfbaba;
+}
+
+#content-articles h5 {
+    color: rgba(0, 80, 155, 1);
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.title-form {
+    color: rgba(0, 80, 155, 1);
+    font-weight: bold;
+}
+
+#fotos-principales{
+    border-radius: 10px;
+    border: 2px solid rgba(0, 80, 155, 1);
+    position: relative;
+}
+#img-products{
+    opacity: 0.3;
+}
+#img-camera{
+    position: absolute;
+    top: 60px;
+    left: 40px;
+}
+.inputs-color{
+    border: 1px solid rgba(0, 80, 155, 1);
+}
+
+#conten-img{
+    display: flex;
+    flex-flow: column;
+}
+.title-fotografias{
+    color: rgba(0, 80, 155, 1);
+    font-weight: bold;
+    font-size: 18px;
+}
+.span-label{
+    color: #000;
+    font-weight: normal;
+}

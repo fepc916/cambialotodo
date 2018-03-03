@@ -10,6 +10,197 @@
     <link rel="stylesheet" href="header.css">
 </head>
 
+<style>
+/*space menú border botton*/
+
+.top-fly {
+  overflow: hidden;
+  margin-left: 100px;
+}
+
+.top-fly a {
+  float: left;
+  display: block;
+  color: #978c8c;
+  text-align: center;
+  padding: 4px 30px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+  margin-left: 15px
+}
+
+.top-fly a:hover {
+  border-bottom: 3px solid rgba(0, 80, 155,1);;
+}
+
+.top-fly a.active {
+  border-bottom: 3px solid rgba(0, 80, 155,1);;
+}
+
+.containerone {
+    margin-top: 100px;
+}
+
+.vol1 {
+    margin-top: 20px;
+}
+
+.vol2 {
+    background: rgba(0, 80, 155,1);
+    border: 1px solid rgba(0, 80, 155,1);
+    border-radius: 15px;
+    color: #fff;
+    padding: 6px 15px 6px 15px;
+}
+
+.vol3 {
+    background: #e5e2e5;
+    border-radius: 15px;
+    color: rgba(0, 80, 155,1);
+    padding: 6px 15px 6px 15px;
+}
+
+.containertwo {
+    margin-top: 20px;
+}
+
+.von1 {
+    background-color:rgba(0, 80, 155,1);    
+    border-radius: 17px;
+    color:#fff;
+    margin-top: -7px;
+    padding: 8px 17px 8px 17px;
+}
+
+.von2 {
+    background-color:rgba(0, 80, 155,1);    
+    border-radius: 17px;
+    color:#fff;
+    margin-left: 67px;
+    margin-top: 40%;
+    padding: 8px 17px 8px 17px;
+}
+
+.von4 {
+    background-color:rgba(0, 80, 155,1);    
+    border-radius: 17px;
+    color:#fff;
+    margin-left: 67px;
+    margin-top: 42%;
+    padding: 8px 17px 8px 17px;
+}
+
+.von6 {
+    background-color:rgba(0, 80, 155,1);    
+    border-radius: 17px;
+    color:#fff;
+    margin-left: 67px;
+    margin-top: 45%;
+    padding: 8px 17px 8px 17px;
+}
+
+.von3 {
+    background-color:rgb(225, 228, 231);    
+    border-radius: 17px;
+    color:#000;
+    margin-left: 67px;
+    margin-top: 2px;
+    padding: 8px 17px 8px 17px;    
+}
+
+.von5 {
+    background-color:rgb(225, 228, 231);    
+    border-radius: 17px;
+    color:#000;
+    margin-left: 67px;
+    margin-top: 3px;
+    padding: 8px 17px 8px 17px;    
+}
+
+/*lado izquierdo*/
+
+.izquier1 {
+    color: rgb(18, 41, 122);
+    margin-top: 50px;
+}
+
+.izquier-uno {
+    margin-left: 32px;
+    margin-top: 25px;
+}
+
+.izquier2 {
+    color: rgb(18, 41, 122);
+    margin-top: 90px;
+}
+
+.izquier-dos {
+    margin-left: 32px;
+    margin-top: 25px;
+}
+
+.izquier3 {
+    color: rgb(18, 41, 122);
+    margin-top: 90px;
+}
+
+.izquier-tres {
+    margin-left: 32px;
+    margin-top: 25px;
+}
+
+/*lado derecho*/
+
+.mitad {
+    border-left: 1px solid #bfbaba5c;
+
+}
+
+.dere1 {
+    color: #000;
+    margin-left: 30px;
+}
+
+.dere2 {
+    font-size: 14px;
+    margin-left: 30px;
+}
+
+.dere3 {
+    background: #e5e2e5;
+    border-radius: 15px;
+    color: rgba(0, 80, 155,1);
+    margin-top: -7px;
+    padding: 6px 15px 6px 15px;
+}
+
+.dere4 {
+    color: #000;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.vincul{
+    padding: 0;
+    margin: 8px auto;
+    justify-content: center;
+}
+
+.vincul li a{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #fff;
+    color: #000;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    margin: 0px 5px;
+}
+</style>
+
 <body>
     <header>
         <div class="container">
@@ -63,7 +254,7 @@
                         <ul class="">
                             <li class="dropdown">
                                 <button class="btn dropdown-toggle" type="button" id="login_header" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span class="username" style="margin-right: 10px">Jose Súarez</span> <i class="fa fa-user-o"></i>
+                            <span class="username" style="margin-right: 10px">Osward José</span> <i class="fa fa-user-o"></i>
                           </button>
                                 <div class="dropdown-menu dropdown-menu-right login_header" aria-labelledby="login_header">
                                     <div class="container">
@@ -176,97 +367,99 @@
             </div>
         </div>
     </header>
+
     <section id="main">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 d-flex justify-content-center">
-                    <h2 id="title-mod">Modificar publicación</h2>
+        <div class="container containerone">
+          <div class="row">
+              <div class="col-md-1"></div><!--spaces vacios-->
+
+              <div class="col-md-2">                
+                <a href="#"><img src="svg/images.png" alt="" left="100" width="140"></a> 
+              </div>
+
+              <div class="col-md-3 vol1">
+                <h3>José Suárez</h3>
+                <h4>Maracaibo, Zulia</h4>
+              </div>  
+
+              <div class="col-md-2"><!--spaces vacios-->                
+              </div>
+
+              <div class="md-offset-2 col-md-3 vol1">
+                <a href="#" class="btn vol2" title="">Ver mi perfil</a>
+                <a href="#" class="btn vol3" title="">Editar mi perfil</a>
+              </div>  
+          </div><br><br><br>
+
+                <div class="row header-products justify-content-between">
+                    <div class="top-fly">
+                        <a class="active" href="#">Resumen</a>
+                        <a href="#">Configuración</a>
+                    </div>
+                </div><hr class="my-0"><br>
+
+              <div class="row containertwo">
+
+                <div class="col-md-1"></div><!--spaces vacios-->
+
+                <div class="col-md-3">                
+                    <h4 class="panel1"><i class="far fa-comment-alt fa-1x"></i>  <strong>Mensajes</strong></h4><br> 
+
+                    <h4 class="izquier1"><i class="fas fa-thumbtack fa-1x"></i>  <strong>Publicaciones</strong></h4> 
+                        <h5 class="izquier-uno">Activas</h5>
+                        <h5 class="izquier-uno">Pausadas</h5>
+                        <h5 class="izquier-uno">Finalizadas</h5>
+
+                    <h4 class="izquier2"><i class="fas fa-exchange-alt fa-1x"></i>  <strong>Cambios</strong></h4> 
+
+                        <h5 class="izquier-dos">Realizados</h5>
+                        <h5 class="izquier-dos">Cancelados</h5>
+
+                    <h4 class="izquier3"><i class="far fa-star fa-1x"></i>  <strong>Calificaciones</strong></h4> 
+
+                        <h5 class="izquier-tres">Realizados</h5>
+                        <h5 class="izquier-tres">Cancelados</h5>
+
                 </div>
-            </div>
-            <div class="row" id="content-articles">
-                <div class="col-md-12">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h5 style="margin-left: 30px;">Información del anuncio</h5>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-8" style="margin-left: 30px;">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <form action="">
-                                        <div class="form-group row">
-                                            <label for="" class="col-md-4 col-form-label title-form">Título<br>
-                                            <span class="span-label">Incluye palabras claves que los compradores usarían para encontrar el articulo.</span></label>
-                                            <div class="col-md-8">
-                                                <input type="text" class="form-control inputs-color">
-                                            </div>
-                                        </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="form-group row">
-                                        <label for="" class="col-md-4 col-form-label title-form">Descripción<br>
-                                            <span class="span-label">Comienza con una breve descripción de las mejores cualidades del articulo.</span></label>
-                                        <div class="col-md-8">
-                                            <textarea name="" id="" cols="30" rows="7" class="form-control inputs-color" size="none"></textarea>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3" id="fotos-principales">
-                            <div class="row">
-                                <div class="col-md-12" id="img-products" style="background-image: url('images/microondas.jpg');">
-                                </div>
-                            </div>
-                            <div class="row" id="img-camera">
-                                <div class="col-md-12" id="conten-img">
-                                    <img src="images/if_camera-alt_2628473.svg" alt="">
-                                    <span class="title-fotografias"><a>Añadir más fotografias</a></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row" style="margin-top: 40px;margin-left: 20px;">
-                        <div class="col-md-8">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <form action="">
-                                        <div class="form-group row">
-                                            <label for="" class="col-md-4 col-form-label title-form">Valor<br>
-                                            <span class="span-label">Escribe el valor estimado del articulo.</span></label>
-                                            <div class="col-md-8">
-                                                <input type="text" style="width: 104%" class="form-control inputs-color" placeholder="Bs.">
-                                            </div>
-                                        </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="form-group row">
-                                        <label for="" class="col-md-4 col-form-label title-form">Descripción</label>
-                                        <div class="col-md-8">
-                                           <select name="" id="" class="form-control inputs-color" style="width: 104%">
-                                               <option value="">Valencia-Edo.Carabobo.</option>
-                                           </select>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12 d-flex justify-content-center">
-                            <button class="btn btn-warning" style="border-radius: 15px;font-weight: bold;color: #fff;margin-top: 40px;margin-bottom: 40px;">GUARDAR Y CONTINUAR</button>
-                        </div>
-                    </div>
+
+                <div class="col-md-3">                
+                    <form> 
+                        <h4>Nuevos <a href="#" class="btn btn-default von1">02</a></h4>
+
+                        <h4><a href="#" class="btn btn-default von2">01</a></h4><!--Activas-->
+
+                        <h4><a href="#" class="btn btn-default von3">00</a></h4><!--pausadas-->
+
+                        <h4><a href="#" class="btn btn-default von3">00</a></h4><!--finalizadas-->
+
+                        <h4><a href="#" class="btn btn-default von4">01</a></h4><!--realizados-->
+
+                        <h4><a href="#" class="btn btn-default von5">01</a></h4><!--cancelados-->
+
+                        <h4><a href="#" class="btn btn-default von6">01</a></h4><!--cambios sin calificar-->
+
+                        <h4><a href="#" class="btn btn-default von5">03</a></h4><!--cambios calificados-->
+                    </form>                
                 </div>
-                
-            </div>
-        </div>
-    </section>
+
+                <div class="col-md-3 mitad">                
+                    <h4 class="dere1">Mi Reputación</h4><br><br>
+                    <h5 class="dere2">Miembro desde octubre de 2011</h5>
+                    <h4 class="dere4">Cuentas Vinculadas</h4><br><br>
+                        <ul class="vincul row">
+                            <li title="facebook"><a href=""><i class="far fa-facebook"></i></a></li>
+                            <li title="youtube"><a href=""><i class="far fa-youtube-play"></i></a></li>
+                            <li title="instagram"><a href=""><i class="far fa-instagram"></i></a></li>
+                        </ul>                    
+                </div>
+
+                <div class="col-md-2">
+                    <a href="#" class="btn dere3" title="">Ver mi reputación</a>          
+                </div>
+              </div>  
+        </div>    
+    </section><br><br><br>
+
     <footer>
         <div class="container">
             <div class="brand text-center">
@@ -298,8 +491,8 @@
     <script src="jquery.js"></script>
     <script src="popper.min.js"></script>
     <script src="bootstrap-4.0.0-beta/dist/js/bootstrap.min.js"></script>
-    <script src="header.js"></script>
-    <script src="slide.js"></script>
+    <script src="header.js"></script>       
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>    
 </body>
 
 </html>

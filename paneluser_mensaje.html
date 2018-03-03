@@ -10,6 +10,63 @@
     <link rel="stylesheet" href="header.css">
 </head>
 
+<style>
+.rih1 {
+    float: right;
+    margin-right: 150px;
+}
+
+.rih2 {
+    border-right: 1px solid #bfbaba5c;
+    margin-top: -77px;
+    margin-right: -16px;
+    height: 520px;
+}
+
+.rih3 {
+    border-top: 1px solid #bfbaba5c;
+}    
+
+.rih4 {
+    float: left;
+    margin-right: 5px;
+    margin-top: 4px;
+}
+
+.rih5 {
+    border-radius: 15px;
+    color:#6868bc;
+    float: right;
+    margin-right: 20%;
+    margin-top: -10px;
+}
+
+.rih6 {
+    color:#6868bc;
+    margin-left: 15px;
+}
+
+.rih7 {
+    border-radius: 15px;
+    background-color:rgba(0, 80, 155,1);
+    padding: 6px 16px 6px 16px;
+    color:#fff;
+}
+
+.rih8 {
+    width:50px;
+    height:50px;
+    border-radius:150px;
+}
+
+.rih9 {
+    margin-left: 15px;
+    border-radius: 15px;
+    background-color:#85898b;
+    color:#fff;
+}
+</style>
+
 <body>
     <header>
         <div class="container">
@@ -63,7 +120,7 @@
                         <ul class="">
                             <li class="dropdown">
                                 <button class="btn dropdown-toggle" type="button" id="login_header" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span class="username" style="margin-right: 10px">Jose Súarez</span> <i class="fa fa-user-o"></i>
+                            <span class="username" style="margin-right: 10px">Osward José</span> <i class="fa fa-user-o"></i>
                           </button>
                                 <div class="dropdown-menu dropdown-menu-right login_header" aria-labelledby="login_header">
                                     <div class="container">
@@ -178,95 +235,94 @@
     </header>
     <section id="main">
         <div class="container">
+                <a href="" class="btn-back rih1"><i class="fa fa fa-caret-left"></i> Volver</a><br><br><br>
             <div class="row">
-                <div class="col-md-12 d-flex justify-content-center">
-                    <h2 id="title-mod">Modificar publicación</h2>
-                </div>
-            </div>
-            <div class="row" id="content-articles">
-                <div class="col-md-12">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h5 style="margin-left: 30px;">Información del anuncio</h5>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-8" style="margin-left: 30px;">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <form action="">
-                                        <div class="form-group row">
-                                            <label for="" class="col-md-4 col-form-label title-form">Título<br>
-                                            <span class="span-label">Incluye palabras claves que los compradores usarían para encontrar el articulo.</span></label>
-                                            <div class="col-md-8">
-                                                <input type="text" class="form-control inputs-color">
-                                            </div>
-                                        </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="form-group row">
-                                        <label for="" class="col-md-4 col-form-label title-form">Descripción<br>
-                                            <span class="span-label">Comienza con una breve descripción de las mejores cualidades del articulo.</span></label>
-                                        <div class="col-md-8">
-                                            <textarea name="" id="" cols="30" rows="7" class="form-control inputs-color" size="none"></textarea>
-                                        </div>
+                <div class="col-12 col-md-4 col-lg-2 filters rih2" id="stylecaja">
+                            <ul class="nav flex-column flex-nowrap">
+                                <li class="nav-item" style="margin-top: 70px;">
+                                    <a class="nav-link collapsed" href="#submenu1" style="color: #bfbaba;" data-toggle="collapse" data-target="#submenu1">Mensajes<i class="far fa-comment-alt fa-1x rih4"></i></a>
+                                    <div class="collapse" id="submenu1" aria-expanded="false">
+                                        <ul class="flex-column pl-2 nav">
+                                            <li class="nav-item"><a class="nav-link py-0" href=""></a></li>
+                                        </ul>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3" id="fotos-principales">
-                            <div class="row">
-                                <div class="col-md-12" id="img-products" style="background-image: url('images/microondas.jpg');">
-                                </div>
-                            </div>
-                            <div class="row" id="img-camera">
-                                <div class="col-md-12" id="conten-img">
-                                    <img src="images/if_camera-alt_2628473.svg" alt="">
-                                    <span class="title-fotografias"><a>Añadir más fotografias</a></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row" style="margin-top: 40px;margin-left: 20px;">
-                        <div class="col-md-8">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <form action="">
-                                        <div class="form-group row">
-                                            <label for="" class="col-md-4 col-form-label title-form">Valor<br>
-                                            <span class="span-label">Escribe el valor estimado del articulo.</span></label>
-                                            <div class="col-md-8">
-                                                <input type="text" style="width: 104%" class="form-control inputs-color" placeholder="Bs.">
-                                            </div>
-                                        </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="form-group row">
-                                        <label for="" class="col-md-4 col-form-label title-form">Descripción</label>
-                                        <div class="col-md-8">
-                                           <select name="" id="" class="form-control inputs-color" style="width: 104%">
-                                               <option value="">Valencia-Edo.Carabobo.</option>
-                                           </select>
-                                        </div>
+                                </li>
+
+                                <li class="nav-item rih3">
+                                    <a class="nav-link collapsed" href="#submenu2" style="color: #bfbaba;" data-toggle="collapse" data-target="#submenu2">Publicaciones<i class="fas fa-thumbtack fa-1x rih4"></i></a>
+                                    <div class="collapse" id="submenu2" aria-expanded="false">
+                                        <ul class="flex-column pl-2 nav">
+                                            <li class="nav-item"><a class="nav-link py-0" href=""></a></li>
+                                        </ul>
                                     </div>
+                                </li>                                
+
+                                <li class="nav-item rih3">
+                                    <a class="nav-link collapsed" href="#submenu3" style="color: #bfbaba;" data-toggle="collapse" data-target="#submenu3">Cambios<i class="fas fa-exchange-alt fa-1x rih4"></i></a>
+                                    <div class="collapse" id="submenu3" aria-expanded="false">
+                                        <ul class="flex-column pl-2 nav">
+                                            <li class="nav-item"><a class="nav-link py-0" href=""></a></li>
+                                        </ul>
+                                    </div>
+                                </li> 
+
+                                <li class="nav-item rih3">
+                                    <a class="nav-link collapsed" href="#submenu4" style="color: #bfbaba;" data-toggle="collapse" data-target="#submenu4"> Calificaciones<i class="far fa-star fa-1x rih4"></i></a>
+                                    <div class="collapse" id="submenu4" aria-expanded="false">
+                                        <ul class="flex-column pl-2 nav">
+                                            <li class="nav-item"><a class="nav-link py-0" href=""></a></li>
+                                        </ul>
+                                    </div>
+                                </li>                 
+                            </ul>
+                        </div>
+
+                <div class="col-12 col-md-8">
+                    <div class="row header-products justify-content-between">
+                        <div class="Product-name col-12 col-md-6">
+                            <h3 class="rih6">Mensajes</h3>
+                        </div>
+                        <div class="pagination-products col-12 col-md-6">
+                           <form> 
+                            <h5 class="btn btn-default rih5">Nuevos                                             
+                            <a class="btn btn-default rih7">02</a></h5>
+                            </form>
+                        </div>
+                    </div><br>
+                        <hr style="margin-top: -40px">
+
+
+                    <div class="col-12 col-md-8 contentProducts">
+                        <div class="row">
+                                <div class="userQuestions" style="margin-left: 15px">
+                                    <h4><img src="images/teclado.png" width="80px" class="rih8" alt=""> Horno Microondas Samsung</h4>
+                                    <ul>
+                                        <li class="question" style="margin-left: 60px">
+                                            <h5 class="ask">¿Cambiarias por un smar tv?<span class="date-question">hace 30 minutos</span></h5>
+                                        </li>
+                                    </ul>
                                 </div>
-                            </div>
+        
+                                <div class="form-question" style="margin-left: 60px">
+                                    <form action="" class="form-inline">
+                                        <div class="form-group">
+                                            <textarea name="input-question" placeholder="Responder" class="form-control" id="input-question" cols="60" rows="1"></textarea>
+                                            <a class="btn btn-default rih9">Modificar</a>                                        
+                                        </div>
+                                    </form>
+                                </div>
+
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-12 d-flex justify-content-center">
-                            <button class="btn btn-warning" style="border-radius: 15px;font-weight: bold;color: #fff;margin-top: 40px;margin-bottom: 40px;">GUARDAR Y CONTINUAR</button>
-                        </div>
-                    </div>
+
                 </div>
-                
+
             </div>
+
+        </div>
         </div>
     </section>
+
     <footer>
         <div class="container">
             <div class="brand text-center">
@@ -298,8 +354,8 @@
     <script src="jquery.js"></script>
     <script src="popper.min.js"></script>
     <script src="bootstrap-4.0.0-beta/dist/js/bootstrap.min.js"></script>
-    <script src="header.js"></script>
-    <script src="slide.js"></script>
+    <script src="header.js"></script>       
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>    
 </body>
 
 </html>

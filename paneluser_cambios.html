@@ -9,7 +9,125 @@
     <link rel="stylesheet" href="bootstrap-4.0.0-beta/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="header.css">
 </head>
+<style>
+.rig1 {
+    width:50px;
+    height:50px;
+    border-radius:150px;
+    margin-left: 30px;
+}    
 
+.rig2 {
+    border-right: 1px solid #bfbaba5c;
+    margin-top: -77px;
+    margin-right: -16px;
+    height: 520px
+}
+
+.rig3 {
+    float: left;
+    margin-right: 5px;
+    margin-top: 4px;
+}
+
+.rig4 {
+    float: left;
+    margin-right: 5px;
+    margin-top: 4px;
+}
+
+.rig5 {
+    border-top: 1px solid #bfbaba5c;
+}
+
+.rig6 {
+    font-size: 12px;
+    margin: -10px 0px 0px 85px;
+}
+
+.rig7 {
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+.rig8 {
+    border-radius: 15px;
+    background-color:#e9ebec;
+    color:#5d78b9;
+    padding: 8px 20px 8px 20px;
+}
+
+.rig9 {
+    width:50px;
+    height:50px;
+    border-radius:150px;
+    margin-left: 30px;
+}
+
+.rig10 {
+    font-size: 12px;
+    margin: -10px 0px 0px 85px;
+}
+
+/*space menú border botton*/
+
+.top-fly {
+  overflow: hidden;
+}
+
+.top-fly a {
+  float: left;
+  display: block;
+  color: #978c8c;
+  text-align: center;
+  padding: 4px 30px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+  margin-left: 15px
+}
+
+.top-fly a:hover {
+  border-bottom: 3px solid rgba(0, 80, 155,1);;
+}
+
+.top-fly a.active {
+  border-bottom: 3px solid rgba(0, 80, 155,1);;
+}
+
+.modal1 {
+    color:#6868bc;
+    font-size: 2em;
+    margin-top: 8%;
+    text-align: center;
+}
+
+.modal2 {
+    width:90px;
+    height:90px;
+    border-radius:150px;
+    border: 1px solid #bfbaba5c;
+}
+
+.modal3 {
+    color: #534e4e5c;
+    font-size: 20px;
+    margin-top: 18px;
+    text-align: center;
+}
+
+.modal4 {
+    color: #6868bc;
+    font-size: 26px;
+    margin-top: 42px;
+    text-align: center;
+}
+
+.modal5 {
+    margin: 22px 0px 40px 0px;
+}
+
+</style>
 <body>
     <header>
         <div class="container">
@@ -63,7 +181,7 @@
                         <ul class="">
                             <li class="dropdown">
                                 <button class="btn dropdown-toggle" type="button" id="login_header" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span class="username" style="margin-right: 10px">Jose Súarez</span> <i class="fa fa-user-o"></i>
+                            <span class="username" style="margin-right: 10px">Osward José</span> <i class="fa fa-user-o"></i>
                           </button>
                                 <div class="dropdown-menu dropdown-menu-right login_header" aria-labelledby="login_header">
                                     <div class="container">
@@ -178,95 +296,99 @@
     </header>
     <section id="main">
         <div class="container">
+                <a href="" class="btn-back" style="float: right;margin-right: 150px;"><i class="fa fa fa-caret-left"></i> Volver</a><br><br><br>
             <div class="row">
-                <div class="col-md-12 d-flex justify-content-center">
-                    <h2 id="title-mod">Modificar publicación</h2>
-                </div>
-            </div>
-            <div class="row" id="content-articles">
-                <div class="col-md-12">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h5 style="margin-left: 30px;">Información del anuncio</h5>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-8" style="margin-left: 30px;">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <form action="">
-                                        <div class="form-group row">
-                                            <label for="" class="col-md-4 col-form-label title-form">Título<br>
-                                            <span class="span-label">Incluye palabras claves que los compradores usarían para encontrar el articulo.</span></label>
-                                            <div class="col-md-8">
-                                                <input type="text" class="form-control inputs-color">
-                                            </div>
-                                        </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="form-group row">
-                                        <label for="" class="col-md-4 col-form-label title-form">Descripción<br>
-                                            <span class="span-label">Comienza con una breve descripción de las mejores cualidades del articulo.</span></label>
-                                        <div class="col-md-8">
-                                            <textarea name="" id="" cols="30" rows="7" class="form-control inputs-color" size="none"></textarea>
-                                        </div>
+                <div class="col-12 col-md-4 col-lg-2 filters rig2">
+                            <ul class="nav flex-column flex-nowrap">
+                                <li class="nav-item" style="margin-top: 70px;">
+                                    <a class="nav-link collapsed" href="#submenu1" style="color: #bfbaba;" data-toggle="collapse" data-target="#submenu1">Mensajes<i class="far fa-comment-alt fa-1x rig3" ></i></a>
+                                    <div class="collapse" id="submenu1" aria-expanded="false">
+                                        <ul class="flex-column pl-2 nav">
+                                            <li class="nav-item"><a class="nav-link py-0" href=""></a></li>
+                                        </ul>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3" id="fotos-principales">
-                            <div class="row">
-                                <div class="col-md-12" id="img-products" style="background-image: url('images/microondas.jpg');">
-                                </div>
-                            </div>
-                            <div class="row" id="img-camera">
-                                <div class="col-md-12" id="conten-img">
-                                    <img src="images/if_camera-alt_2628473.svg" alt="">
-                                    <span class="title-fotografias"><a>Añadir más fotografias</a></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row" style="margin-top: 40px;margin-left: 20px;">
-                        <div class="col-md-8">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <form action="">
-                                        <div class="form-group row">
-                                            <label for="" class="col-md-4 col-form-label title-form">Valor<br>
-                                            <span class="span-label">Escribe el valor estimado del articulo.</span></label>
-                                            <div class="col-md-8">
-                                                <input type="text" style="width: 104%" class="form-control inputs-color" placeholder="Bs.">
-                                            </div>
-                                        </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="form-group row">
-                                        <label for="" class="col-md-4 col-form-label title-form">Descripción</label>
-                                        <div class="col-md-8">
-                                           <select name="" id="" class="form-control inputs-color" style="width: 104%">
-                                               <option value="">Valencia-Edo.Carabobo.</option>
-                                           </select>
-                                        </div>
+                                </li>
+
+                                <li class="nav-item rig5">
+                                    <a class="nav-link collapsed" href="#submenu2" style="color: #bfbaba;" data-toggle="collapse" data-target="#submenu2">Publicaciones<i class="fas fa-thumbtack fa-1x rig4"></i></a>
+                                    <div class="collapse" id="submenu2" aria-expanded="false">
+                                        <ul class="flex-column pl-2 nav">
+                                            <li class="nav-item"><a class="nav-link py-0" href=""></a></li>
+                                        </ul>
                                     </div>
-                                </div>
+                                </li>                                
+
+                                <li class="nav-item rig5">
+                                    <a class="nav-link collapsed" href="#submenu3" style="color: #bfbaba;" data-toggle="collapse" data-target="#submenu3">Cambios<i class="fas fa-exchange-alt fa-1x rig4"></i></a>
+                                    <div class="collapse" id="submenu3" aria-expanded="false">
+                                        <ul class="flex-column pl-2 nav">
+                                            <li class="nav-item"><a class="nav-link py-0" href=""></a></li>
+                                        </ul>
+                                    </div>
+                                </li> 
+
+                                <li class="nav-item rig5">
+                                    <a class="nav-link collapsed" href="#submenu4" style="color: #bfbaba;" data-toggle="collapse" data-target="#submenu4"> Calificaciones<i class="far fa-star fa-1x rig4"></i></a>
+                                    <div class="collapse" id="submenu4" aria-expanded="false">
+                                        <ul class="flex-column pl-2 nav">
+                                            <li class="nav-item"><a class="nav-link py-0" href=""></a></li>
+                                        </ul>
+                                    </div>
+                                </li>                 
+                            </ul>
+                        </div>
+
+                <div class="col-12 col-md-8">
+                    <div class="row header-products justify-content-between">
+                        <div class="Product-name col-12 col-md-6">
+                            <h3 style="color:#6868bc;margin-left: 15px;">Cambios</h3>
+                        </div>
+                        <div class="pagination-products col-12 col-md-6">
+                            <p>Ordenar por:
+                            </select> Más reciente:
+
+                                <select name="" id="">
+                                    <option value=""></option>
+                                </select>
+                            </p>
+                        </div><br>
+                            <div class="top-fly">
+                              <a class="active" href="#">Realizados</a>
+                              <a href="#">Cancelados</a>
                             </div>
-                        </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-12 d-flex justify-content-center">
-                            <button class="btn btn-warning" style="border-radius: 15px;font-weight: bold;color: #fff;margin-top: 40px;margin-bottom: 40px;">GUARDAR Y CONTINUAR</button>
-                        </div>
-                    </div>
+
+
+                    <table class="table table-responsive">
+                      <thead>
+                        <tr>
+                          <th><i class="fa fa-check" style="color: green"></i><img src="images/teclado.png" width="80px" class="rig1" alt="">Renault Megane 2005<br>
+                            <h5 class="rig6">Publicación N° 02304</h5></th>
+                          <th><i class="fa fa-exchange-alt"></i></th>
+                          <th><img src="images/teclado.png" width="80px" class="rig1" alt="">Moto Bera X1<br>
+                            <h5 class="rig6">Publicación N° 02304</h5></th>
+                          <th><a class="btn btn-default rig8" href="#">Ver detalles</a></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row"><i class="fa fa-check" style="color: green"></i><img src="images/teclado.png" width="80px" class="rig1" alt=""> Horno Microondas Samsung<br>
+                            <h5 class="rig6">Publicación N° 02304</h5></th>
+                          <td><i class="fa fa-exchange-alt"></i></td>
+                          <td><img src="images/teclado.png" width="80px" class="rig1" alt="">Samsung Smart Tv<br>
+                            <h5 class="rig6">Publicación N° 02304</h5></td>
+                          <td><a class="btn btn-default rig8" href="#">Ver detalles</a></td>
+                        </tr>
+                      </tbody>
+                    </table>
                 </div>
-                
+
             </div>
+
+        </div>
         </div>
     </section>
+
     <footer>
         <div class="container">
             <div class="brand text-center">
@@ -298,8 +420,8 @@
     <script src="jquery.js"></script>
     <script src="popper.min.js"></script>
     <script src="bootstrap-4.0.0-beta/dist/js/bootstrap.min.js"></script>
-    <script src="header.js"></script>
-    <script src="slide.js"></script>
+    <script src="header.js"></script>       
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>    
 </body>
 
 </html>

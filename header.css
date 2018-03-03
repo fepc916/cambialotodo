@@ -838,3 +838,127 @@ article .partners ul{
     height:300px;
     border-radius:150px;
 }
+
+#stylecaja {
+    float: right;
+}
+
+#share_one{
+    position: absolute;
+    top: 8px;
+    float: right;
+    right: 20px;
+    color: rgba(0, 80, 155,1);
+    display: block;
+    cursor: pointer;    
+}
+
+.shares{
+    padding: 0;
+    margin: 8px auto;
+    justify-content: center;
+}
+
+.share_caja a{
+    width: 100%;
+    display: block;
+    text-align: right;
+    font-size: .8rem;
+}
+
+.shares li a{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    margin: 0px 5px;
+}
+
+#caja {
+    padding: 1px 1px 1px 1px;
+    left: 30px;
+}
+
+
+/*modificar publicacion*/
+
+@font-face {
+    font-family: "Roboto-Thin";
+    src: url(/vendor/fonts/ROBOTO/Roboto-Thin.ttf) format("truetype");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto-Thin";
+}
+
+#title-mod {
+    color: rgba(0, 80, 155, 1);
+    font-weight: bold;
+    padding: 40px;
+}
+
+#content-articles {
+    border-radius: 10px;
+    border: 1px solid #bfbaba;
+}
+
+#content-articles h5 {
+    color: rgba(0, 80, 155, 1);
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.title-form {
+    color: rgba(0, 80, 155, 1);
+    font-weight: bold;
+}
+
+#fotos-principales{
+    border-radius: 10px;
+    border: 2px solid rgba(0, 80, 155, 1);
+    position: relative;
+}
+#img-products{
+    opacity: 0.3;
+    background-size: cover;
+}
+#img-camera{
+    position: absolute;
+    top: 85px;
+    left: 40px;
+    background-size: cover;
+}
+.inputs-color{
+    border: 1px solid rgba(0, 80, 155, 1);
+}
+
+#conten-img{
+    display: flex;
+    flex-flow: column;
+}
+.title-fotografias{
+    color: rgba(0, 80, 155, 1);
+    font-weight: bold;
+    font-size: 18px;
+}
+.span-label{
+    color: #000;
+    font-weight: normal;
+}
+
+/*publicaciones*/
+
+#rig1 {
+    border-right: 1px solid #bfbaba5c;
+    margin-top: -77px;
+    margin-right: -16px;
+    height: 520px
+}
